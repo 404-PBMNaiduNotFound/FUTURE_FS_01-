@@ -15,6 +15,13 @@ html { scroll-behavior: smooth; }
 
 body { background: var(--bg); color: var(--text); font-family: var(--font-display); overflow-x: hidden; }
 
+img{
+  margin-top: -100px;
+position: absolute; left:1050px;
+  height:250px;
+  width: 250px;
+  border-radius: 150px;
+}
 /* scrollbar */
 ::-webkit-scrollbar { width: 3px; }
 ::-webkit-scrollbar-thumb { background: var(--accent); }
@@ -46,7 +53,7 @@ nav.scrolled { border-color: var(--border); }
   border-bottom: 1px solid var(--border);
 }
 #hero-bg{
-  margin-top: 50px;
+  margin-top: 50px;position: absolute;
 }
 .hero-bg-number {
   position: absolute; right: 48px; top: 50%;
